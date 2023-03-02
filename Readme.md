@@ -10,4 +10,5 @@
 ## Referencias 
 
 - *Julia for Data Analysis, MEAP Edition, Bogumił Kamiński*
+
 ![book](img/book1.png)
