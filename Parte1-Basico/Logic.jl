@@ -64,4 +64,12 @@ end
 x  = 1
 x > 0 ? println(x," es positivo") : println(x, "es negativo")
 
+# ----- Podemos aprovechar esto
+
+x = -9
+y = x > 0 ? sqrt(x) : sqrt(-x)
+
+## o claro solo 
+
+y = sqrt(abs(x))
 

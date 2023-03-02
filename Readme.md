@@ -4,9 +4,10 @@
 
 ```{julia}
 ❤️ = 1
-❤️ > 0 ? println("x es positiva") : println("x es negativa")
+❤️ > 0 ? println("❤️ es positiva") : println("❤️ es negativa")
 ```
 
 ## Referencias 
 
 - *Julia for Data Analysis, MEAP Edition, Bogumił Kamiński*
+![book](img/book1.png)
