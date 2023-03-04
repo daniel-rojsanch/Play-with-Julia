@@ -24,5 +24,20 @@ arbol_tipos(Vector)
 arbol_tipos(String)
 arbol_tipos(typeof(sum))
 
+### Funciones 
+
+f(x::Int64) = println(x, " Es un entero")
+f(1)
+
+# pero si pasamos esto, 
+
+f(1.1)
+
+
+## otro ejemplo'
+
+h(x::Int8, y::Float64) = return x + y
+h(1, 1.0)
+
 
 
