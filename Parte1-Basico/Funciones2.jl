@@ -23,3 +23,19 @@ map(x -> 2x, [1, 2, 8])
 map((x, y) -> x + y, [1, 2], [3, 5])
 
 
+##  function on function
+
+a = [1, 2, 3]
+sum(a)
+
+sum(map(x -> x^2, a))
+sum(x -> x^2, a)      # hay funciones que podemos omitir el map
+
+sum(a) do x
+    println("procesando ", x)
+    return x^2
+end
+
+
+
+
