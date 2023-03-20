@@ -23,4 +23,25 @@ using Statistics
 mean(m; dims = 2)
 std(m; dims = 1)
 
+# Ejemplo 2
 
+mat = [1 4 1 7; 17 -4 23 3; 0 3 6 -1; 7 7 0 -12]
+mat
+size(mat)
+size(mat, 1)
+size(mat,2)
+
+I = mat*inv(mat)
+isapprox( I[1,2],0)
+
+mat
+mean(mat; dims = 1)
+mean(mat;dims = 2)
+
+## Accediendo a elemnetos de una matriz
+mat[1,1]
+mat[1:4,2]
+mat[ : ,2]
+mat[2,:]
+
+mat[3:4,3:4]
