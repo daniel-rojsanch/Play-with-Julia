@@ -1,4 +1,5 @@
-# 😎 Aprendiendo Julia
+# 😎 Programación en Julia
+
 
 `Mis scripts para entender el lenguaje julia`
 
@@ -6,6 +7,10 @@
 ❤️ = 1
 ❤️ > 0 ? println("❤️ es positiva") : println("❤️ es negativa")
 ```
+## Contenido
+
+- Essential Julia Skills
+- Toolbox for Data Analysis
 
 ## Referencias 
 
