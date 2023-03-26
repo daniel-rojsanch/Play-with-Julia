@@ -20,7 +20,7 @@ import Downloads
 #@info Downloads.download("https://database.lichess.org/lichess_db_puzzle.csv.bz2",
 #"puzzles.csv.bz2")
 
-Downloads.download("https://raw.githubusercontent.com/daniel-rojsanch/Gallery-R/main/data/FIFA2.csv", "data/fifa.csv")
+# Downloads.download("https://raw.githubusercontent.com/daniel-rojsanch/Gallery-R/main/data/FIFA2.csv", "data/fifa.csv")
 
 ## Una forma de comprobar si tenemos el archivo
 isfile("data/fifa.csv") 
@@ -46,8 +46,14 @@ data = CSV.read("data/fifa.csv", DataFrame);
 data
 
 names(data)
+size(data)
+ncol(data)
+nrow(data)
 
-using Plots
-using StatsPlots
-@df data scatter(:Age, :Overall)
+
+
+data.Age
+data.Overall
+
+# data[:Age == 20,:]
 
