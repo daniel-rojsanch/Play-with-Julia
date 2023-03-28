@@ -1,6 +1,6 @@
 # 🤖 Programación en Julia
 
-Algunos Scipts que he realizado para empaparme en el lenguaje [**Julia**](https://julialang.org/).
+Algunos Scipts que he realizado para empaparme en el lenguaje [**Julia**](https://julialang.org/). 
 
 ```{julia}
 ❤️ = 1
