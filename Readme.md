@@ -2,18 +2,15 @@
 
 Algunos Scipts que he realizado para empaparme en el lenguaje [**Julia**](https://julialang.org/). 
 
-```{julia}
-❤️ = 1
-❤️ > 0 ? println("❤️ es positiva") : println("❤️ es negativa")
-```
-## 🦉 Contenido
+## 🦉 Mirada
 
-- [x] Essential Julia Skills
-- [x] Toolbox for Data Analysis
-- [ ] 
-- [ ]
-- [ ]
-- [ ]
+```{julia}
+x = 1
+x > 0 ? println("x es positiva") : println("x no es positiva")
+```
+
+|![f](pi.png)||
+|--------|-------|
 
 ## 🦜Referencias 
 
