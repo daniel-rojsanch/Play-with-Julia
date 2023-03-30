@@ -57,3 +57,31 @@ scatter(iris.SepalLength, iris.SepalWidth, group = iris.Species),
 histogram(iris.PetalWidth)
 )
 
+1 + 1
+
+###########
+
+df = DataFrame(A = 1:4, B = ["Maria", "Tania", "Diana", "Maria"])
+
+df.A
+df.B
+
+df."B"
+
+names(df)
+propertynames(df)
+
+#############
+
+dogs = DataFrame(Id = 1:4, Name = ["Zapote", "Paris", "Luna", "Vladimir"], Specie = ["Pator" , "Chihuahua", "Husky", "Husky"])
+
+## Expresion Regular
+names(dogs, r"Spe")
+
+## Seleccionar Todas las columnas exepto Id
+dogs[:,Not(:Id)]
+
+
+
+
+
