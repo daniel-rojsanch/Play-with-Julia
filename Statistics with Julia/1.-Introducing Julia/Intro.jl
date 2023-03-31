@@ -22,10 +22,10 @@ a[1] == f(x[1,1],x[1,2])
 
 a .< 1
 
-scatter(x[a .< 1, 1],x[a .< 1, 2])
-scatter!(x[a .> 1, 1],x[a .> 1, 2], col = "red")
-title!("Uniform Random x² + y² < 1")
-
+scatter(x[a .< 1, 1],x[a .< 1, 2], size = (300, 300), dpi = 700, label = "pi_aprox = 3.15")
+scatter!(x[a .> 1, 1],x[a .> 1, 2], col = "red", label = false)
+title!("Aprox π")
+savefig("pi3.png")
 ## Podemos Calcular un aproximado de pi, con nuestras 5000 obs
 n = length(x[a .<1 , 1])
 pi_aprox = 4*(n/5000)
