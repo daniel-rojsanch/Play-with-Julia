@@ -9,7 +9,7 @@ x = 1
 x > 0 ? println("x es positiva") : println("x no es positiva")
 ```
 
-|![f](img/Dist.svg)||
+|![f](img/Dist.svg)|![i](img/regre.svg)|
 |--------|-------|
 
 ## 🦜Referencias 
